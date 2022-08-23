@@ -1,73 +1,12 @@
-      /*the main page */
-      .header{
-        display: block;
-        height: 100px;
-        background-color: #f7f7f7;
-      }
-      #logo{
-        height: 100px;
-        width: 100px;
+      .secondcontainer{
+        height: 100%;
+        width: 100%;
+        background-color:darkred ;
       }
 
-      .logo-container{
-        height: 100px;
-        width: 100px;
-        float: left;
-        background-color: beige ;
+      .container{
+        'background-image': url("louvre-abu-dhabi.jpg")
       }
-      .most-rated{
-        height: 40px;
-        width: 150px;
-        float: left;
-        
-
-      }
-      .login{
-        height: 40px;
-        width: 90px;
-        float: right;
-        ;
-      }
-      .sing-up{
-        height: 40px;
-        width:  90px;
-        float: right;
-        
-      }
-      .categories{
-        height: 40px;
-        width: 90px;
-        float: left;
-       
-      }
-
-.slider{
-  margin:50px auto;
-  width:50%;
-}
- 
-.img-box img{
-  width:100%;
-}
-
-.btn{
-  border:none;
-  outline:none;
-  background:#888;
-  padding:10px 30px;
-  font-size: 20px;
-  color:#ddd;
-  cursor: pointer;
-  margin:10px auto;      
-}
-
-.btn:hover{
-  background: #111;
-}
-      
-
-
-
       /*the sing up page*/ 
       * {
        box-sizing: border-box;
@@ -155,8 +94,22 @@
       footer a {
         color:#49c1a2
       }
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-
+.button:hover {opacity: 1}
 
 
 
